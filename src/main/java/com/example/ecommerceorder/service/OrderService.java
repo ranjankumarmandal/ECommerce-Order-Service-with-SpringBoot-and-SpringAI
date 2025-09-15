@@ -2,8 +2,8 @@ package com.example.ecommerceorder.service;
 
 import com.example.ecommerceorder.entity.Order;
 import com.example.ecommerceorder.entity.Product;
-import com.example.order.exception.ProductNotAvailableException;
-import com.example.order.repository.OrderRepository;
+import com.example.ecommerceorder.exception.ProductNotAvailableException;
+import com.example.ecommerceorder.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

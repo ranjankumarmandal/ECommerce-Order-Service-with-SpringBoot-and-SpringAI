@@ -1,8 +1,8 @@
 package com.example.ecommerceorder.controller;
 
 import com.example.ecommerceorder.entity.Order;
+import com.example.ecommerceorder.exception.ProductNotAvailableException;
 import com.example.ecommerceorder.service.OrderService;
-import com.example.order.exception.ProductNotAvailableException;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
